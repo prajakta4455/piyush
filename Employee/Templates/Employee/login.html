@@ -1,67 +1,36 @@
+{%load static %}
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>LOgin </title>
-</head>
-<body>
-     <h2> Please Register here !</h2>
+  <html>
+    <head>
+      <title>Login Here !! </title>
 
-<form name="myForm" onsubmit="return validateForm()" method="post" action= "{% url 'save_emp_Data' %}" > {% csrf_token %}
-          {% csrf_token %}
+    </head>
+    <body>
+
+		<script src="{%static 'EmployeeData/validateEmpRegstForm.js' %}"></script>
+		<div class="topnav">
+        <a class="active" name="user" href="{%url 'login' %}"> Log In : {{request.user.username }} </a>
+        <a href="{%url 'logout' %}"><font color="red">Log out</font></a>
+
+    </div>
+
+		<form name="myForm" onsubmit=" " method="post" action= ''>
+			{% csrf_token %}
 		<font color="red"><span>{{error}}</span></font><br>
-
-      <div class="input-group">
-			<label><i>Name:<font color="red">*<span id="fname"></span></font></i></label>
-			<input type="text" name="fname" placeholder="FirstName LastName" >
-          </div>
-	<div class="input-group">
-			<label><i>Email Address:<font color="red">*<span id="email"></span></font></i></label>
-			<input type="text" name="email" >
-		</div>
-              <div class="input-group">
-			<label><i>Password<font color="red">*<span id="password"></span></font></i></label>
-			<input type="text" name="password" placeholder="should be 8 letters and combination of letters and characters" >
-		</div>
-		    <div class="input-group">
-			<label><i>Type :<font color="red"></font></i></label>
-				</div>
-			<div class="col-75">
-        <select id="type" name="type">
-          <option value="Manager">Manager</option>
-          <option value="Employee">Employee</option>
-        </select>
-          </div>
-              <div class="input-group">
-			<label><i>Job title:<font color="red">*<span id="job_title"></span></font></i></label>
-			<input type="text" name="job_title" placeholder="job title" >
-		</div>
-
-	 	<div class="input-group">
-			<label><i>Date of joing:<font color="red">*<span id="doj"></span></font></i></label>
-			<input type="text" name="doj" >
-		</div>
 		<div class="input-group">
-			<label><i>last appraisal date:</i></label>
-			<input type="text" name="last_ap_date" value="" >
+			<label><i>Username:<font color="red">*<span id="username"></span></font></i></label>
+			<input type="text" name="username" required >
 		</div>
-
-              <div class="input-group">
-			<label><i>Evalute by:</i></label>
-			<input type="text" name="evalute_by" value="" >
-		</div>
-
-              <div class="input-group">
-			<label><i>Email of reporting manager:</i></label>
-			<input type="text" name="reporting_mail" value="" >
+	 	<div class="input-group">
+			<label><i>Password:<font color="red">*<span id="password"></span></font></i></label>
+			<input type="password" name="password" required >
 		</div>
 		<div class="input-group">
 			<button type="submit" name="login" class="btn"><b>Submit</b></button>
 		</div>
 
-
 		</form>
 
+    </body>
 
-</body>
-</html>
+  </html>>

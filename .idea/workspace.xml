@@ -15,7 +15,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
   <component name="ProjectId" id="1YP4S19L3Zn5DAEamLjvNkJEPdD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,8 +29,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hr_verificient-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,18 +51,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1582841210668">
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1583007177584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582841210668" />
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583007177584" />
     <state x="551" y="262" key="Github.ShareDialog" timestamp="1582841116443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1582841116443" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1582841149148">
+    <state x="186" y="9" key="SettingsEditor" timestamp="1583015998921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582841149148" />
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583015998921" />
+    <state x="393" y="94" key="Vcs.Push.Dialog.v2" timestamp="1583015850846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583015850846" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1583006961552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583006961552" />
+    <state x="391" y="167" key="git4idea.merge.GitPullDialog" timestamp="1583015741080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="167" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1583015741080" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582837248168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

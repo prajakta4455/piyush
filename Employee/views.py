@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from . import views
 from django.views import View
 from django.contrib.auth.models import User
@@ -6,17 +6,25 @@ from .models import EmpDaTa
 from django.http import HttpResponse
 # Create your views here.
 
-class Login(View):
+class login(View):
     def get(self, request):
         return render(request, "Employee/login.html")
 
     def post(self, request):
         Username = request.post.get('username')
         Password = request.post.get('password')
+        print(Username,Password )
+
+
+class logout(View):
+    def logout_page(request):  # for logout
+        login_emp_details = {'user_name': None, 'emp_type': None, 'login_status': False}
+        return redirect("login")
+
 
 class Save_emp_data(View):
     def get(self, request):
-        return render(request, "Employee/login.html" )
+        return render(request, "Employee/Register.html" )
 
     def post(self, request):
       try:
